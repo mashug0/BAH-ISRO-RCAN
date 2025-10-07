@@ -53,7 +53,38 @@ RADIAN integrates two complementary modules for enhanced reconstruction:
 ---
 
 ## 🧠 Folder Structure
-<pre> BAH-ISRO-RCAN/ ├── BIQA/ # Blind Image Quality Assessment (No-reference evaluator) │ ├── Degrador.py │ ├── ExtractMos.py │ ├── ExtractSSIM.py │ ├── Train.py / Test.py │ ├── model/ │ │ ├── BIECON.py │ │ ├── BlindEvalModel.py │ │ ├── GradientSharpness.py │ │ └── TrainModel.py │ └── mos.csv │ ├── Dataset/ # Dataset creation and degradation scripts │ ├── CreateDataset.py │ ├── Degrador.py │ └── Extractor.py │ ├── Model/ # Core Dual-Image Super-Resolution Model │ ├── NoiseAwareTDAN.py │ ├── liteRCAN.py │ ├── NoiseEstimator.py │ ├── MultiComponentLoss.py │ ├── DeformConv2d.py │ └── Allignment.py │ ├── DatasetLoader.py # Dataset loader utilities ├── MODEL_NOTEBOOK.ipynb # 🔹 Main notebook to run Super-Resolution └── PS12_Mangal Mandli .pptx # Presentation slides (Hackathon submission) </pre>
+<pre>
+BAH-ISRO-RCAN/
+├── BIQA/                          # Blind Image Quality Assessment (No-reference evaluator)
+│   ├── Degrador.py
+│   ├── ExtractMos.py
+│   ├── ExtractSSIM.py
+│   ├── Train.py / Test.py
+│   ├── model/
+│   │   ├── BIECON.py
+│   │   ├── BlindEvalModel.py
+│   │   ├── GradientSharpness.py
+│   │   └── TrainModel.py
+│   └── mos.csv
+│
+├── Dataset/                       # Dataset creation and degradation scripts
+│   ├── CreateDataset.py
+│   ├── Degrador.py
+│   └── Extractor.py
+│
+├── Model/                         # Core Dual-Image Super-Resolution Model
+│   ├── NoiseAwareTDAN.py
+│   ├── liteRCAN.py
+│   ├── NoiseEstimator.py
+│   ├── MultiComponentLoss.py
+│   ├── DeformConv2d.py
+│   └── Allignment.py
+│
+├── DatasetLoader.py               # Dataset loader utilities
+├── MODEL_NOTEBOOK.ipynb           # 🔹 Main notebook to run Super-Resolution
+└── PS12_Mangal Mandli .pptx       # Presentation slides (Hackathon submission)
+</pre>
+
 
 BIQA/model is not relevant to the Model Used. it will be updated soon.
 
