@@ -87,6 +87,7 @@ BAH-ISRO-RCAN/
 
 
 BIQA/model is not relevant to the Model Used. it will be updated soon.
+best_model.pth, some checkpoint_epoch_num.pth fies are added to branch test-model
 
 
 ---
@@ -131,4 +132,4 @@ Optimization: Adam, EMA updates
 
 Inference Acceleration: TensorRT supported
 
-best_model.pth, some checkpoint.pth fies are also uploaded in folder test_model
+
